@@ -1,6 +1,6 @@
 {
   "name": "@renaatdemuynck/elements-by-class-name-observer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Detects changes in the list of elements with a certain class name",
   "license": "MIT",
   "author": "Renaat De Muynck <renaat.demuynck@gmail.com>",

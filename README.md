@@ -1,6 +1,6 @@
-# Indeterminable Checkbox
+# Elements By Class Name Observer
 
-Makes checkboxes cycle through checked, unchecked and intermediate visual states.
+Detects changes in the list of elements with a certain class name.
 
 
 ## Installation
@@ -8,11 +8,11 @@ Makes checkboxes cycle through checked, unchecked and intermediate visual states
 Using NPM:
 
 ```sh
-npm install @renaatdemuynck/indeterminable-checkbox
+npm install @renaatdemuynck/elements-by-class-name-observer
 ```
 
 Using Yarn:
 
 ```sh
-yarn add @renaatdemuynck/indeterminable-checkbox
+yarn add @renaatdemuynck/elements-by-class-name-observer
 ```
