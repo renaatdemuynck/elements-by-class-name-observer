@@ -31,12 +31,14 @@ function elementsByClassNameObserver(className, addHandler, deleteHandler) {
         });
 
         // Detect deleted elements
-        oldSet.forEach(element => {
-            if (!currentSet.has(element)) {
-                deleteHandler(element);
-                oldSet.delete(element);
-            }
-        });
+        if (deleteHandler !== undefined) {
+            oldSet.forEach(element => {
+                if (!currentSet.has(element)) {
+                    deleteHandler(element);
+                    oldSet.delete(element);
+                }
+            });
+        }
     });
 
     // Observe changes in DOM tree and class names
