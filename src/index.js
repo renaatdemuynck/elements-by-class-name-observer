@@ -39,10 +39,12 @@ function elementsByClassNameObserver(className, addHandler, deleteHandler) {
         });
     });
 
-    // Observe changes in DOM tree
+    // Observe changes in DOM tree and class names
     observer.observe(document, {
         childList: true,
-        subtree: true
+        subtree: true,
+        attributes: true,
+        attributeFilter: ['class']
     });
 }
 
